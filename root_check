@@ -10,4 +10,5 @@ exit 1
 fi
 
 ## check number of processors
-
+  if [ nproc - eq 1 ]
+	  
