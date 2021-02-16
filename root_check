@@ -11,3 +11,12 @@ fi
 
 ## check number of processors
 
+if [ `nproc` -eq 1 ]
+then
+echo" your memory is small"
+exit 2
+
+fi
+
+
+
